@@ -1,0 +1,306 @@
+{
+  "keys": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js",
+  "news": {
+    "pageSize": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js",
+    "listUrl": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js"
+  },
+  "view": {
+    "defaultExtension": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js",
+    "defaultViewEngine": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js",
+    "mapping": {
+      ".html": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js",
+      ".ejs": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js"
+    },
+    "root": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-view\\config\\config.local.js"
+  },
+  "cache": {
+    "url": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js",
+      "port": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js",
+      "user": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js",
+      "password": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js",
+      "database": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js"
+    },
+    "app": "D:\\架构课\\8. eggjs\\egg-example\\config\\config.default.js",
+    "default": {
+      "database": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-mysql\\config\\config.default.js"
+    },
+    "agent": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-mysql\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "type": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "sequelize": {
+    "dialect": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "database": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "host": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "port": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "username": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "password": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg-sequelize\\config\\config.default.js"
+  },
+  "env": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "dev": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "keywords": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "author": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-sequelize": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "mysql2": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\架构课\\8. eggjs\\egg-example\\node_modules\\egg\\config\\config.default.js"
+}

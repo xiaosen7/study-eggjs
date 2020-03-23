@@ -1,0 +1,103 @@
+2020-03-23 16:49:00,701 ERROR 11988 [-/::1/-/5ms GET /] nodejs.AssertionError: Can't find index.html from 
+    at Map.resolve (D:\架构课\8. eggjs\egg-example\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ContextView.[contextView#render] (D:\架构课\8. eggjs\egg-example\node_modules\egg-view\lib\context_view.js:50:22)
+    at async HomeController.index (D:\架构课\8. eggjs\egg-example\app\controller\home.js:5:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 11988
+hostname: DESKTOP-RRA50AA
+
+2020-03-23 16:49:27,505 ERROR 18540 [-/::1/-/15ms GET /] nodejs.AssertionError: Can't find index.html from 
+    at Map.resolve (D:\架构课\8. eggjs\egg-example\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ContextView.[contextView#render] (D:\架构课\8. eggjs\egg-example\node_modules\egg-view\lib\context_view.js:50:22)
+    at async HomeController.index (D:\架构课\8. eggjs\egg-example\app\controller\home.js:5:21)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 18540
+hostname: DESKTOP-RRA50AA
+
+2020-03-23 16:50:06,996 ERROR 18540 [-/::1/-/1ms GET /] nodejs.AssertionError: Can't find index.html from 
+    at Map.resolve (D:\架构课\8. eggjs\egg-example\node_modules\egg-view\lib\view_manager.js:74:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ContextView.[contextView#render] (D:\架构课\8. eggjs\egg-example\node_modules\egg-view\lib\context_view.js:50:22)
+    at async HomeController.index (D:\架构课\8. eggjs\egg-example\app\controller\home.js:5:21)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 18540
+hostname: DESKTOP-RRA50AA
+
+2020-03-23 17:15:55,286 ERROR 17156 [-/::1/-/5047ms GET /] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://www.easy-mock.com/mock/5cfa48f640971927560c5d74/news/api/list -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\架构课\8. eggjs\egg-example\node_modules\urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/mock/5cfa48f640971927560c5d74/news/api/list?pageNum=1&pageSize=10"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5031,"keepAliveSocket":false,"requestUrls":["https://www.easy-mock.com/mock/5cfa48f640971927560c5d74/news/api/list"],"timing":null,"remoteAddress":"120.27.128.131","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 17156
+hostname: DESKTOP-RRA50AA
+
+2020-03-23 17:16:31,563 ERROR 23068 [-/::1/-/5051ms GET /] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://www.easy-mock.com/mock/5cfa48f640971927560c5d74/news/api/list -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\架构课\8. eggjs\egg-example\node_modules\urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/mock/5cfa48f640971927560c5d74/news/api/list?pageNum=1&pageSize=10"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5033,"keepAliveSocket":false,"requestUrls":["https://www.easy-mock.com/mock/5cfa48f640971927560c5d74/news/api/list"],"timing":null,"remoteAddress":"120.27.128.131","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 23068
+hostname: DESKTOP-RRA50AA
+
+2020-03-23 19:05:03,999 ERROR 21388 [-/::1/-/5011ms GET /] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://www.easy-mock.com/mock/5e788cb31c4fd747cbb0eecb/api/user/list -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":22,"createSocketErrorCount":0,"closeSocketCount":21,"errorSocketCount":0,"timeoutSocketCount":4,"requestCount":4,"freeSockets":{},"sockets":{"www.easy-mock.com:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\架构课\8. eggjs\egg-example\node_modules\urllib\lib\urllib.js:926:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ConnectionTimeoutError"
+requestId: 21
+data: undefined
+path: "/mock/5e788cb31c4fd747cbb0eecb/api/user/list?pageNum=1&pageSize=10"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5003,"keepAliveSocket":false,"requestUrls":["https://www.easy-mock.com/mock/5e788cb31c4fd747cbb0eecb/api/user/list"],"timing":null,"remoteAddress":"120.27.128.131","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 21388
+hostname: DESKTOP-RRA50AA
+
+2020-03-23 19:23:44,127 ERROR 17940 [-/::1/-/5095ms GET /] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://www.easy-mock.com/mock/5e788cb31c4fd747cbb0eecb/api/user/list -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"www.easy-mock.com:443::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\架构课\8. eggjs\egg-example\node_modules\urllib\lib\urllib.js:940:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ResponseTimeoutError"
+requestId: 1
+data: undefined
+path: "/mock/5e788cb31c4fd747cbb0eecb/api/user/list?pageNum=1&pageSize=10"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5081,"keepAliveSocket":false,"requestUrls":["https://www.easy-mock.com/mock/5e788cb31c4fd747cbb0eecb/api/user/list"],"timing":null,"remoteAddress":"120.27.128.131","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 17940
+hostname: DESKTOP-RRA50AA
+
